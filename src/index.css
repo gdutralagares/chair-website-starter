@@ -1,8 +1,10 @@
 /* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Poppins:wght@400;600&display=swap');
+
 :root {
   /* Fonts */
-  --font-family-1: ;
-  --font-family-2: ;
+  --font-family-1:"Calistoga", serif ;
+  --font-family-2: "Poppins", sans-serif;
   /* Colors */
   --white: #fff;
   --orange: #ff7411;
@@ -21,7 +23,23 @@
   scroll-padding-top: 2rem;
   font-family: var(--font-family-2);
 }
-
+body{
+  background: #fffcf7;
+}
+img{
+  width: 100%;
+}
+.container{
+  max-width: 1060px;
+  width: 100%;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+}
+section{
+  padding: 3rem 0 2rem;
+}
 .btn {
   background: var(--gradient);
   color: #fff;
@@ -35,4 +53,28 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+h2 {
+  font-family: var(--font-family-1);
+  font-size: 40px;
+  background: #532e28;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+p{
+  color: var(--text-color)
+}
+
+/*responsive*/
+@media(max-width:1070px){
+  .container{
+    margin: 0 auto;
+    width: 92%;
+  }
+}
+@media(max-width:884px){
+  .section{
+    padding: 2rem 0;
+  }
 }
