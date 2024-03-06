@@ -4,7 +4,8 @@ import Hero from "./componentes/hero/hero"
 import Companies from "./componentes/companies/companies"
 import Chair from "./componentes/chair/chair"
 import About  from "./componentes/about/about"
-import Contact  from "./componentes/contact/contact"
+import Footer  from "./componentes/footer/footer"
+import Contact from "./componentes/contact/contact"
 import "./index.css";
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Chair/>
       <About/>
       <Contact/>
+      <Footer/>
     </div>
   );
 };

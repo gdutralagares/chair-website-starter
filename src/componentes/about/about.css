@@ -10,7 +10,9 @@
   max-width: 440px;
   width: 100%;
 }
-
+.about-data h2{
+  margin-top: 30px;
+}
 .about-data p{
   font-size: 0.938rem;
   text-align: left;

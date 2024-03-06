@@ -28,19 +28,19 @@ const header = () => {
           </a>
           {/*Nav*/}
           <div className={`navbar ${isMenuOpen ? "open-menu" : ""}`}>
-            <a href="#" className="nav-link">
+            <a href="#chair" className="nav-link">
               Furniture
             </a>
-            <a href="#" className="nav-link">
-              Projects
-            </a>
-            <a href="#" className="nav-link">
+            <a href="#chair" className="nav-link">
               Products
             </a>
-            <a href="#" className="nav-link">
+            <a href="#about" className="nav-link">
               About Us
             </a>
-            <a href="#" className="register-btn btn">
+            <a href="#contact" className="nav-link">
+              Contact
+            </a>
+            <a href="#contact" className="register-btn btn">
               Register
             </a>
           </div>

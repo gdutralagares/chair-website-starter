@@ -8,7 +8,7 @@ import { IoIosPeople } from "react-icons/Io";
 const about = () => {
   return (
     <div>
-      <section className="about container">
+      <section className="about container" id="about">
         <div className="about-img">
           <img src="./about.png" alt="" />
         </div>
